@@ -1,0 +1,28 @@
+/*
+Theme Name: American Freight Service
+Theme URI: http://www.lindleworks.com
+Description: American Freight Service child theme based off of the u-design theme.
+Author: Mitch Lindle
+Author URI: http://www.lindleworks.com
+Template:     u-design
+Version: 1.0
+*/
+body {
+	font-size: 14px !important;
+}
+#page-content-title #page-title h1, #page-content-title #page-title h2, #page-content-title #page-title h3, #page-content-title #page-title .single-post-categories {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#logo {
+	top: 0;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+@media screen and (max-width: 720px) { 
+	#logo {
+		top: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}

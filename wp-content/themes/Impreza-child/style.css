@@ -1,0 +1,37 @@
+/*
+Theme Name: Impreza Child
+Template: Impreza
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://impreza.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+
+.help-form .w-form-row-field  {
+	margin: 0 0 10px;
+}
+.help-form .help-select select {
+  	-webkit-appearance:none;
+  	height:auto
+}
+.help-form .help-select:after {
+  content:'';
+  position:absolute;
+  top:56%;
+  transform:translateY(-50%);
+  right:0;
+  font-size:var( --inputs-font-size );
+  margin:0 var( --inputs-padding );
+  color:var( --inputs-text-color );
+  pointer-events:none;
+  border:0.4em solid;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  border-bottom-color:transparent;
+  border-radius:2px
+} 
+.help-form.wpcf7 form.invalid .wpcf7-response-output {
+	border-color: red !important;
+}
