@@ -6,7 +6,7 @@
 /**
  * Template Name: Full-width page 2
  */
-if ( !defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( !defined( 'ABSPATH' ) ) exit;  
 
 
 get_header(); ?>
